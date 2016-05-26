@@ -15,6 +15,10 @@
 		C54AA0EC1CF5E73F001C16E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54AA0EA1CF5E73F001C16E1 /* LaunchScreen.storyboard */; };
 		C54AA0F71CF5E73F001C16E1 /* SDViewControlllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C54AA0F61CF5E73F001C16E1 /* SDViewControlllerTests.m */; };
 		C54AA1021CF5E73F001C16E1 /* SDViewControlllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C54AA1011CF5E73F001C16E1 /* SDViewControlllerUITests.m */; };
+		C54AA1121CF5ED55001C16E1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54AA1101CF5ED55001C16E1 /* MainViewController.m */; };
+		C54AA1131CF5ED55001C16E1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54AA1111CF5ED55001C16E1 /* MainViewController.xib */; };
+		C54AA1171CF60447001C16E1 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C54AA1151CF60447001C16E1 /* CustomTableViewCell.m */; };
+		C54AA1181CF60447001C16E1 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54AA1161CF60447001C16E1 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		C54AA0FD1CF5E73F001C16E1 /* SDViewControlllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDViewControlllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54AA1011CF5E73F001C16E1 /* SDViewControlllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDViewControlllerUITests.m; sourceTree = "<group>"; };
 		C54AA1031CF5E73F001C16E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54AA10F1CF5ED55001C16E1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C54AA1101CF5ED55001C16E1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C54AA1111CF5ED55001C16E1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		C54AA1141CF60447001C16E1 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		C54AA1151CF60447001C16E1 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		C54AA1161CF60447001C16E1 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,12 @@
 				C54AA0E01CF5E73F001C16E1 /* AppDelegate.m */,
 				C54AA0E21CF5E73F001C16E1 /* ViewController.h */,
 				C54AA0E31CF5E73F001C16E1 /* ViewController.m */,
+				C54AA1141CF60447001C16E1 /* CustomTableViewCell.h */,
+				C54AA1151CF60447001C16E1 /* CustomTableViewCell.m */,
+				C54AA1161CF60447001C16E1 /* CustomTableViewCell.xib */,
+				C54AA10F1CF5ED55001C16E1 /* MainViewController.h */,
+				C54AA1101CF5ED55001C16E1 /* MainViewController.m */,
+				C54AA1111CF5ED55001C16E1 /* MainViewController.xib */,
 				C54AA0E51CF5E73F001C16E1 /* Main.storyboard */,
 				C54AA0E81CF5E73F001C16E1 /* Assets.xcassets */,
 				C54AA0EA1CF5E73F001C16E1 /* LaunchScreen.storyboard */,
@@ -246,6 +262,8 @@
 				C54AA0EC1CF5E73F001C16E1 /* LaunchScreen.storyboard in Resources */,
 				C54AA0E91CF5E73F001C16E1 /* Assets.xcassets in Resources */,
 				C54AA0E71CF5E73F001C16E1 /* Main.storyboard in Resources */,
+				C54AA1181CF60447001C16E1 /* CustomTableViewCell.xib in Resources */,
+				C54AA1131CF5ED55001C16E1 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +291,8 @@
 				C54AA0E41CF5E73F001C16E1 /* ViewController.m in Sources */,
 				C54AA0E11CF5E73F001C16E1 /* AppDelegate.m in Sources */,
 				C54AA0DE1CF5E73F001C16E1 /* main.m in Sources */,
+				C54AA1171CF60447001C16E1 /* CustomTableViewCell.m in Sources */,
+				C54AA1121CF5ED55001C16E1 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
